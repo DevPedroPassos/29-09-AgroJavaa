@@ -10,9 +10,11 @@ import java.util.Locale;
 import java.util.Scanner;
 
 /**
- * AgroJava - Atividade 2
- * Evolução 1 (Analytics): histórico de chuvas em CSV (RF04 a RF07)
- * Evolução 2 (SmartFarm): mapa de umidade, classificação e relatórios (RF08 a RF12)
+ * Nome: Pedro Luiz Agrella Passos
+ * Versão 1 - AgroJava
+ *
+ * V1 (Analytics): histórico de chuvas em CSV (RF04 a RF07)
+ * V2 (SmartFarm): mapa de umidade, classificação e relatórios (RF08 a RF12)
  */
 public class AgroJava_v2 {
 
@@ -100,9 +102,7 @@ public class AgroJava_v2 {
         } while (opcao != 0);
     }
 
-    // =====================================================================
-    //  EVOLUÇÃO 1 - ANALYTICS
-    // =====================================================================
+    //  V1 - ANALYTICS
 
     // ---------- RF04 ----------
     static void cadastrarChuvas() {
@@ -247,9 +247,7 @@ public class AgroJava_v2 {
         System.out.println(String.format(Locale.US, "%.1f mm", mediaGeral));
     }
 
-    // =====================================================================
-    //  EVOLUÇÃO 2 - SMARTFARM
-    // =====================================================================
+    //  V2 - SMARTFARM
 
     // ---------- Cadastro da matriz + RF08 ----------
     static void cadastrarTalhoes() {
@@ -466,9 +464,7 @@ public class AgroJava_v2 {
         }
     }
 
-    // =====================================================================
     //  UTILITÁRIOS
-    // =====================================================================
 
     static boolean verificarTalhoes() {
         if (!talhoesCadastrados) {

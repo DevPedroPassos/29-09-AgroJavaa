@@ -2,6 +2,11 @@ package org.example;
 
 import java.util.Scanner;
 
+/**
+ * Nome: Pedro Luiz Agrella Passos
+ * Versão 1 - AgroJava
+ */
+
 public class AgroJava {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
